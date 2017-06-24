@@ -1,8 +1,0 @@
-[Unit]
-Description=Start etherminer client and connect to a private geth node
-
-[Service]
-ExecStart=/cpp-ethereum/build/etherminer --farm-recheck 200 -U -S 0.0.0.0:8545
-
-[Install]
-WantedBy=multi-user.target

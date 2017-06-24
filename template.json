@@ -44,8 +44,7 @@
         "export CUDA_BIN_PATH=/usr/local/cuda-8.0",
         "cmake -DBUNDLE=cudaminer ..",
         "make -j8",
-        "export ENV GPU_FORCE_64BIT_PTR=0 GPU_MAX_HEAP_SIZE=100 GPU_USE_SYNC_OBJECTS=1 GPU_MAX_ALLOC_PERCENT=100 GPU_SINGLE_ALLOC_PERCENT=100",
-        "systemctl enable"
+        "export ENV GPU_FORCE_64BIT_PTR=0 GPU_MAX_HEAP_SIZE=100 GPU_USE_SYNC_OBJECTS=1 GPU_MAX_ALLOC_PERCENT=100 GPU_SINGLE_ALLOC_PERCENT=100"
       ]
   }]
 }
