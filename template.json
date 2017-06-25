@@ -17,11 +17,6 @@
   }],
   "provisioners": [
     {
-      "type": "file",
-      "source": "ethminer.service",
-      "destination": "/etc/systemd/system/ethminer.service"
-    },
-    {
       "type": "shell",
       "inline": [
         "sleep 30",
